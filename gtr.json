@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shibisty/gtr/main/schema/gtr.schema.json",
+    "name": "fullstack-validation",
+    "version": "0.1.0",
+    "description": "Struct validation by tags and request binding (JSON, forms) with 422 errors for fullstack",
+    "license": "MIT",
+    "repository": "github:shibisty/fullstack.go-validation",
+    "engines": {
+        "go": ">=1.22"
+    },
+    "devDependencies": {
+        "fullstack": "github:shibisty/fullstack.go"
+    },
+    "peerDependencies": {
+        "fullstack": "^0.1"
+    },
+    "scripts": {
+        "test": "go test ./..."
+    }
+}
