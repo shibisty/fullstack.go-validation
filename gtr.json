@@ -8,6 +8,7 @@
     "engines": {
         "go": ">=1.22"
     },
+    "dependencies": {},
     "devDependencies": {
         "fullstack": "^0.1"
     },
