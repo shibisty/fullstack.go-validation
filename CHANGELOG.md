@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Changed
+- Renamed from `fullstack-validation` to `@fullstack/validation` (gtr ADR-0012): `gtr add @fullstack/validation`, `import "fullstack/validation"`; published to the gtr registry. Dependencies on fullstack, passport, orm and migration packages are registry ranges instead of `github:` sources.
+
 ### Added
 - `validation.Struct`: validates structs by `validate` tags, nested structs and slices of structs
   included (`address.city`, `items.0.name`); field names from `json` / `form` tags.

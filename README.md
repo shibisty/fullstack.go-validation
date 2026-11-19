@@ -1,4 +1,4 @@
-# fullstack-validation
+# @fullstack/validation
 
 Struct validation by tags and request binding for [fullstack](https://github.com/shibisty/fullstack.go),
 in the spirit of Laravel's validator. Standard library only.
@@ -8,14 +8,14 @@ in the spirit of Laravel's validator. Standard library only.
 ```json
 {
     "dependencies": {
-        "fullstack": "github:shibisty/fullstack.go",
-        "fullstack-validation": "github:shibisty/fullstack.go-validation"
+        "fullstack": "^0.1",
+        "@fullstack/validation": "^0.2"
     }
 }
 ```
 
 ```go
-import "fullstack-validation" // package validation
+import "fullstack/validation" // package validation
 ```
 
 ## Usage
